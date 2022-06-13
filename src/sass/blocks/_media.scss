@@ -84,6 +84,12 @@
             }
         }
     }
+    .catalog {
+        padding-bottom: 60px;
+    }
+    .recomendation {
+        max-width: 700px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -201,6 +207,78 @@
                 margin: 10px 0 12px 0;
             }
 
+        }
+    }
+    .recomendation {
+        min-width: 320px;
+        &__card {
+            flex-direction: column;
+            align-items: center;
+            &-descr {
+                text-align: center;
+                margin-left: 0;
+                width: 310px;
+                &_name {
+                    margin-top: 10px;
+                }
+                &_text {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .footer {
+        height: 450px;
+        iframe {
+            height: 450px;
+        }
+        &__info {
+            width: 300px;
+            height: 200px;
+            padding: 20px;
+        }
+        &__addr {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        &__phone {
+            margin-bottom: 20px;
+        }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+            &:hover {
+                box-shadow:none;
+            }
+        }
+    }
+    .overlay {
+        .modal {
+            min-width: 270px;
+            min-height: 300px;
+            padding: 20px;
+            border-radius: 4px;
+            &__close {
+                top: -42px;
+                right: -6px;
+                border: 1px solid $main-color;
+                border-radius: 100%;
+                padding: 4px;
+            }
+            &__subtitle {
+                font-size: 16px;
+            }
+            &__descr {
+                font-size: 13px;
+            }
+        }
+        .feed-form {
+            width: 250px;
+            margin: 0 auto;
+            margin-top: 15px;
+            input {
+                height: 40px;
+            }
         }
     }
 }
