@@ -130,4 +130,6 @@ $('form').submit(function(e) {
     return false;
   });
 
+  new WOW().init();
+  
 });
