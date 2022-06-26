@@ -137,6 +137,10 @@
                 transform: translateX(-100%);
                 margin-left: 20px;
             }
+            ul {
+                margin: 0;
+                padding-inline: 0;
+            }
             li {
                 position: relative;
                 font-weight: 300;
