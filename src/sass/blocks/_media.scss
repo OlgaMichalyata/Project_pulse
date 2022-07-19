@@ -96,6 +96,9 @@
     .title {
         font-size: 27px;
     }
+    .our-advantages__icon_animated {
+        animation-play-state: paused;
+    }
     .promo {
         &__header {
             text-align: center;
